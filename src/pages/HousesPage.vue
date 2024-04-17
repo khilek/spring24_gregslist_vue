@@ -48,7 +48,7 @@ onMounted(() => {
 
 
 <section class="row ">
-<div v-for="house in houses" :key="house.id" class="col-4">
+<div v-for="house in houses" :key="house.id" class="col-3">
   <HouseCard :house="house"/>
 </div>
 
