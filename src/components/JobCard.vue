@@ -48,7 +48,7 @@ await jobsService.closeJobOpening(jobId)
 <p>{{ job.hours }} Hours</p>
 <p>Rate: {{ job.rate }}</p>
 <p>{{ job.description }}</p>
-<button v-if="job.creatorId == account?.id" @click="closeJobOpening(job.id)" class="btn btn-outline-danger" title="Full Send!">Close Job</button>
+<button v-if="job.creatorId == account?.id" @click="closeJobOpening(job.id)" class="btn btn-outline-danger w-25 " title="Full Send!">Close Job</button>
 
 
 
